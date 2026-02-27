@@ -29,7 +29,7 @@ public class TextWidget : Widget //, ICloneable
                                 SKTextAlign.Left, Font, paint);
     }
 // Copy Constructor; Prototype Design Pattern
-/*    public TextWidget(TextWidget sourceObj)
+    public TextWidget(TextWidget sourceObj)
     {
         Font = sourceObj.Font;
         Position = sourceObj.Position;
@@ -42,5 +42,5 @@ public class TextWidget : Widget //, ICloneable
     public TextWidget Clone() // ไม่ดี เพราะใช้ initializer ต่อเลยไม่ได้
     {
         return new TextWidget(this);
-    }*/
+    }
 }
