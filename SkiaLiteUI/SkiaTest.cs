@@ -75,7 +75,7 @@ public class SkiaTest : IDisposable, Renderer
         position += step;
 
         BuildText(font);
-        //CloneText(font);
+        CloneText(font);
     }
 
     // Builder design pattern
@@ -94,7 +94,7 @@ public class SkiaTest : IDisposable, Renderer
     }
 
     // Prototype design pattern
-/*    private void CloneText(SKFont font)
+    private void CloneText(SKFont font)
     {
         string text = "ทดสอบข้อความ prototype ";
         var prototype = new TextWidget(font, new(50, 50), text, SKColors.Blue);
@@ -108,5 +108,5 @@ public class SkiaTest : IDisposable, Renderer
             widgets.Add(widget);
             prototype.Position += new Vector(0, 40);
         }
-    }*/
+    }
 }

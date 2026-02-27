@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassDesign", "ClassDesign\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaLiteUI", "SkiaLiteUI\SkiaLiteUI.csproj", "{8606012B-36F8-4E48-8179-03E3C226ECA5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework1", "EntityFramework1\EntityFramework1.csproj", "{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{8606012B-36F8-4E48-8179-03E3C226ECA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8606012B-36F8-4E48-8179-03E3C226ECA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8606012B-36F8-4E48-8179-03E3C226ECA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
