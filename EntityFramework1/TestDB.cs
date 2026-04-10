@@ -32,7 +32,7 @@ public class TestDB
         var list = context.Customers.Where(c => c.Id < 3).ToList();
        //ar list = context.Customers.OrderBy(c => c.FirstName).ToList();
         list.ForEach(Console.WriteLine);
-
+        
         Console.WriteLine("\n----Query single row----");
         Console.WriteLine();//todo
     }

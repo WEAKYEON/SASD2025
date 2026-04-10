@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkiaLiteUI", "SkiaLiteUI\Sk
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityFramework1", "EntityFramework1\EntityFramework1.csproj", "{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantLogic", "RestaurantLogic\RestaurantLogic.csproj", "{B3E060E0-1012-4417-9F7B-D250DF4F8ADA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestaurantLogicTest", "RestaurantLogicTest\RestaurantLogicTest.csproj", "{81F4D810-FB8C-4D6C-AA81-0A7A0FC13B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0C609C2-83EB-4E44-B380-FAE86CF4DE66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E060E0-1012-4417-9F7B-D250DF4F8ADA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E060E0-1012-4417-9F7B-D250DF4F8ADA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E060E0-1012-4417-9F7B-D250DF4F8ADA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E060E0-1012-4417-9F7B-D250DF4F8ADA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81F4D810-FB8C-4D6C-AA81-0A7A0FC13B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81F4D810-FB8C-4D6C-AA81-0A7A0FC13B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81F4D810-FB8C-4D6C-AA81-0A7A0FC13B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81F4D810-FB8C-4D6C-AA81-0A7A0FC13B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
